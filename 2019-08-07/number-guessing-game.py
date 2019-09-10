@@ -47,3 +47,8 @@ while True:
         continue
 
 print(f"You had {attempts}", "attempt" if attempts == 1 else "attempts")
+
+
+'''
+Comments: We're checking user input. I'm only counting tries if the user enters a number.
+'''

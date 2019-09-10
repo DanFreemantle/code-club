@@ -15,3 +15,9 @@ sideB = input("Enter the length of side B: ")
 
 # Pythagoras = A^2 + B^2 = C^2
 print("The length of the hypotenuse is", math.sqrt(int(sideA) ** 2 + int(sideB) ** 2))
+
+
+
+'''
+Comments: We're not checking user input, casting to an integer might fail.
+'''

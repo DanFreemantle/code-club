@@ -17,3 +17,9 @@ print("Okay, got it")
 print("Let me think about that for a second")
 print("... carry the one ... square root ... brackets ...")
 print("A-HA! The answer is", eval(puzzle))
+
+
+'''
+Comments: This should validate the user input, perhaps by only allowing certain characters. "eval"-ing the input without
+checking is risky, I've done it here to make a simple program.
+'''
